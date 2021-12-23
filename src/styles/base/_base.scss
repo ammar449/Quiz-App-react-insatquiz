@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: $quickSand;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.toast-valid {
+    background-color: $success-text !important;
+    border-radius: 5px !important;
+    color: $off-white !important;
+}
+
+.toast-invalid {
+    background-color: $error-text !important;
+    border-radius: 5px !important;
+    color: $off-white !important;
+}
+
+.disable {
+    background-color: #ccc !important;
+    box-shadow: none !important;
+    pointer-events: none;
+    opacity: 0.9 !important;
+}

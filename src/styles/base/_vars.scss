@@ -1,0 +1,46 @@
+//colors 
+$orange: #ffa500;
+$off-blue:#00BCD4;
+$green:#57b846;
+$red:#ea4355;
+$off-white: #f8f8f8;
+$off-black:#333;
+$error-text:#f44336;
+$success-text: #4caf50;
+// sizes 
+$xs: 0.5rem;
+$normal:1rem;
+$sm:1.5rem;
+$md:2rem;
+$lg:3rem;
+$xlg:5rem;
+$xxlg:7rem;
+// button radius
+$button-radius:30px;
+// css fonts
+@font-face {
+    font-family: "Quicksand";
+    src: local("Quicksand"), url("../../fonts/Quicksand-VariableFont_wght.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Style Script";
+    src: local("StyleScript"), url("../../fonts/StyleScript-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+$quickSand: 'Quicksand',
+sans-serif;
+//braks poinsts 
+$lg-breakPoint: 1024px;
+$md-breakPoint:768px;
+$sm-breakPoint:641px;
+$xs-breakPoint:480px;
+// shadow 
+$shadow1: 0 2px 1px 1px rgba($color: #000000,
+$alpha: .14),
+0 3px 1px -2px rgba($color: #000000,
+$alpha: .12),
+0 1px 5px 0 rgba($color: #000000,
+$alpha: 0.2);
